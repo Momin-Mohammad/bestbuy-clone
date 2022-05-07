@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+    <style>
+    </style>
+</head>
+
+<body>
+
+    <div class="nav">
+        <div class="logo">
+            <h1 id="c1">BEST BUY</h1>
+            
+        </div>
+        <div id="p1"  ><img src="https://www.seekpng.com/png/full/396-3965935_share-this-image-best-buy-logo.png" alt=""></div>
+        
+        <div class="text">
+            <p id="c2"> <a href="./homepage.html">Return to previous page </a> </p>
+            </div>
+            
+    </div>
+
+
+    
+    <!-- 2nd section -->
+
+    <form id="form">
+        <h1>Create an Account</h1>
+
+          
+        <p> First Name<span style="color:red;font-weight:bold">*</span></p>
+        <input id="First Name" type="text" placeholder="First Name">
+
+        <p>Last Name<span style="color:red;font-weight:bold">*</span></p>
+        <input id="Last Name" type="text" placeholder="Last Name">
+
+        <p>Email<span style="color:red;font-weight:bold">*</span></p>
+        <input id="Email" type="text" placeholder="Email">
+
+        <p>password<span style="color:red;font-weight:bold">*</span></p>
+        <input id="Password" type=" password" placeholder="Password">
+
+        <div class="terms_and_cons d_none">
+            <p><input type="checkbox" name="terms_and_cons" /></p>
+            <p>Sign up for our newsletter to stay in the loop about hot deals, new products, and more. Don’t worry, you
+                can unsubscribe at any time.</p>
+        </div>
+
+        <input id="submit" type="submit" name="submit" value="Create Account" />
+
+        <!-- <p>By continuing you agree to our</p> -->
+        <p>By continuing you agree to our <a href="Conditions.html" class="link_forgot_pass d_block"><strong>Accept
+                    Terms and Conditions</strong></a></p>
+        <hr>
+        <p>Already have a Account?<a href="signin.html"><strong>Sign In</strong></a></p>
+    
+    </form>
+
+
+</body>
+
+</html>
+<script>
+    document.querySelector("#form").addEventListener("submit", myRule)
+
+    function myRule() {
+        event.preventDefault()
+
+        var Fname = document.getElementById("First Name").value;
+        var Lname = document.getElementById("Last Name").value;
+        var email = document.getElementById("Email").value
+        var pass = document.getElementById("Password").value
+
+
+        var user = {
+            FirstName: Fname,
+            Lastname: Lname,
+            Email: email,
+            Password: pass,
+        };
+
+        var josn = JSON.stringify(user);
+        localStorage.setItem(user, josn)
+        console.log("user added")
+        alert("SignUp Successful")
+
+        // window.location.href="signin.html"
+        window.location.href = "signin.html"
+
+
+
+    }
+
+</script>
