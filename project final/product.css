@@ -1,0 +1,44 @@
+.Card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(auto,1fr);
+    margin-left: 200px;
+    margin-bottom: 30px;
+   
+
+}
+.Card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.Card1{
+   
+    text-align: center;
+}
+.Card2{
+    
+    
+    justify-content: center;
+}
+.Card3{
+   
+    text-align: center;
+    
+}
+button{
+    background-color: yellow;
+     padding: 0px 8px;
+   font-size: 13px;
+   cursor: pointer;
+   
+    
+}
+#img{
+    padding: 0px 16px 0px 0px ;
+}
+#Brand{
+    
+    color: #0457c8;
+}
+
