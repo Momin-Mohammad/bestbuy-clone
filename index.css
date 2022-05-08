@@ -72,14 +72,14 @@ padding:15px 20px 15px 20px;
 border:1px solid blue;
 border-radius:8px ;
 }
-.con>img{
+.frige1>img{
 /* margin-left: 15px; */
 width:auto;
 height:55%;
 display: block;
 margin:auto;
 }
-.con>p{
+.frige1>p{
 color:#0457C8;
 /* margin-top: -1px; */
 margin:auto;
@@ -87,7 +87,7 @@ text-align: center;
 margin-top:10px;
 
 }
-.con>p:hover{
+.frige1>p:hover{
 color:rgb(65, 61, 61);
 text-decoration: underline;
 
