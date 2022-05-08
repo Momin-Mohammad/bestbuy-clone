@@ -7,8 +7,10 @@
 }
 #pp>p{
  color:#0046BE;
+ font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
  /* margin-top:30px; */
  /* margin-left: 10%; */
+;
 }
 #pp>p:hover{
     text-decoration: underline;
@@ -19,6 +21,7 @@ font-size: 25px;
 font-weight: bold;
 margin-left:15% ;
 margin-top: -8px;
+font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
 }
 h3+div{
 height:auto;
@@ -38,18 +41,20 @@ margin-top:-80px ;
 margin-left: 600px;
 color: white;
 font-size: 50px;
+font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
 
 }
 #sp{
 color:yellow;
+font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
 }
 #third{
 height:40px;
 width:40px;
 /* border:1px solid green; */
 position:absolute;
-margin-top:-105px;
-margin-left: 1110px;
+margin-top:-108px;
+margin-left: 1163px;
 
 }
 #container{
@@ -85,6 +90,8 @@ color:#0457C8;
 margin:auto;
 text-align: center;
 margin-top:10px;
+font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
+
 
 }
 .frige1>p:hover{
@@ -103,18 +110,20 @@ display: flex;
 #skip{
 color:black;
 font-weight: bold;
+font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
 }
 #text>p{
 margin:auto;
 color:#0457C8;
+font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
 }
 #text>p:hover{
 color:rgb(43, 34, 34);
 text-decoration: underline;
 }
 #cont{
-height:1000px;
-width:99%;
+height:1100px;
+width: auto;
 margin:auto;
 /* border:1px solid green; */
 display: grid;
@@ -135,6 +144,8 @@ margin-top: 20px;
 }
 #cont>div>img+p{
 color:#0457C8;
+font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
+
 
 }
 #cont>div>img+p:hover{
@@ -144,6 +155,8 @@ text-decoration: underline;
 #min{
 color:rgb(161, 151, 151);
 line-height:2px;
+font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
+font-size: 14px;
 }
 .btn{
 background-color:#0046BE;
@@ -151,8 +164,9 @@ color:#FFFFFF;
 border: 1px solid #0046BE;
 padding: 5px 25px 5px 25px;
 margin-left: 15px;
-margin-top: 85px; 
+margin-top: 75px; 
 position: relative;
+font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
 
 
 
@@ -161,7 +175,9 @@ position: relative;
 background-color: rgb(30, 30, 105);
 }
 .term{
-color:#244172
+    font-size: 14px;
+color:#244172;
+font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
 }
 
 
@@ -174,7 +190,8 @@ color:#FFFFFF;
 border: 1px solid #0046BE;
 padding: 5px 25px 5px 25px;
 margin-left: 15px;
-margin-top: 105px;
+margin-top: 93px;
+font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
 
 }
 .btn1:hover{
@@ -187,7 +204,8 @@ color:#FFFFFF;
 border: 1px solid #0046BE;
 padding: 5px 25px 5px 25px;
 margin-left: 15px;
-margin-top: 0px;
+margin-top: 8px;
+font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
 
 }
 .btn2:hover{
@@ -200,6 +218,7 @@ border: 1px solid #0046BE;
 padding: 5px 25px 5px 25px;
 margin-left: 15px;
 margin-top: 0px;
+font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
 }
 .btn3:hover{
 background-color: rgb(30, 30, 105); 
@@ -210,7 +229,8 @@ color:#FFFFFF;
 border: 1px solid #0046BE;
 padding: 5px 25px 5px 25px;
 margin-left: 15px;
-margin-top:  105px;
+margin-top:  85px;
+font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
 }
 .btn4:hover{
 background-color: rgb(30, 30, 105); 
@@ -221,7 +241,8 @@ color:#FFFFFF;
 border: 1px solid #0046BE;
 padding: 5px 25px 5px 25px;
 margin-left: 15px;
-margin-top:  88px;
+margin-top:  83px;
+font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
 }
 .btn5:hover{
 background-color: rgb(30, 30, 105); 
@@ -233,6 +254,7 @@ border: 1px solid #0046BE;
 padding: 5px 25px 5px 25px;
 margin-left: 15px;
 margin-top:  38px;
+font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
 }
 .btn6:hover{
 background-color: rgb(30, 30, 105); 
@@ -256,7 +278,7 @@ display: flex;
 #conti>div>img{
 
 height: 40%;
-width: auto;
+width:auto;
 margin:auto;
 }
 #month{
@@ -266,14 +288,20 @@ width:160px;
 margin:auto;
 
 }
+#month>h4{
+    font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
+}
 #month>h4+p{
 margin-top:-20px;
 color:rgb(30, 29, 29);
 font-size: 14px;
+font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
+
 }
 #learn{
 color: #0046BE;
 margin-top:-10px;
+font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
 }
 #learn:hover{
 text-decoration: underline;
@@ -303,6 +331,7 @@ margin-left:160px;
 /* font-size: 35px; */
 color:#040C13;
 font-weight: bold;
+font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
 
 }
 #energy>h1+p{
@@ -311,6 +340,7 @@ color:rgb(66, 66, 66);
 margin-top:-18px;
 color:#040C13;
 font-weight: -15px;
+font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
 }
 #boat{
    height: 150px;
@@ -341,12 +371,14 @@ font-weight: -15px;
    text-align-last:-10px ;
    margin-left: 15px;
    color:#040C13;
+   font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
 }
 .enough>h1{
    margin-top: -15px;
    margin-left: 15px;
    /* text-align: left; */
    color:#040C13;
+   font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
    
 }
 .enough>h1+h4{
@@ -356,6 +388,7 @@ font-weight: -15px;
  margin-left: 12px;
  font-weight:medium ;
  color:#040C13;
+ font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
 
 }
 #btn7{
@@ -365,6 +398,7 @@ font-weight: -15px;
    background-color: #0046BE; 
    border: #0046BE;
    margin-left:40%;
+   font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
 }
 #btn7:hover{
   background-color: rgb(30, 30, 105); 
@@ -374,6 +408,7 @@ font-weight: -15px;
    margin-top:18px;
    margin-left: 30%;
    font-size: 12px;
+   font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
 }
 #earth{
    margin-top: 25px;
@@ -398,14 +433,19 @@ font-weight: -15px;
 }
 #earth>img+div>h1{
    font-weight: bold;
+   font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
+  
 }
 span{
    color:#0046BE;
+  
 }
 #p{
    margin-top: -16px;
    color:#040C13;
    font-size: 15px;
+   font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
+  
 }
 #btn8{
    margin-top: -5px;
@@ -413,6 +453,7 @@ span{
    color:white;
    background-color: #0046BE; 
    border: #0046BE;
+   font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
    /* margin-left:40%; */
 }
 #btn8:hover{
@@ -422,6 +463,7 @@ span{
       margin-top: 7px;
       color:#0046BE;
       font-size: 14px;
+      font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
   }
   #p1:hover{
       color:#040C13;
@@ -448,6 +490,7 @@ span{
   #contin>div>img+p{
       color:#0046BE;
       font-size: 14px;
+      font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
 
   }
   #contin>div>img+p:hover{
@@ -462,6 +505,7 @@ span{
    border: #0046BE;
    margin-top: 75px;
    margin-left: 10px;
+   font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
    /* margin-left:40%; */
 }
 .btn9:hover{
@@ -471,6 +515,7 @@ span{
       margin-left: 5px;
       margin-top:80px;
       font-size: 22px;
+      font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
   }
   #btn10{
    margin-top: -5px;
@@ -480,6 +525,7 @@ span{
    border: #0046BE;
    /* margin-top: 50px; */
    margin-left: 10px;
+   font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
 
 }
 #btn10:hover{
@@ -506,6 +552,7 @@ span{
      #continer1>div>img+p{
          color:#0046BE;
       font-size: 14px;
+      font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
 
   }
   #continer1>div>img+p:hover{
@@ -520,6 +567,7 @@ span{
    border: #0046BE;
    /* margin-top: 50px; */
    margin-left: 10px;
+   font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
 
 }
 .btn11:hover{
@@ -565,6 +613,7 @@ span{
      
       color:#040C13;
       font-size: 30px;
+      font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
       
   }
   #btn12{
@@ -575,6 +624,8 @@ span{
    border: #0046BE;
    /* margin-top: 50px; */
    margin-left: 58px;
+   
+   font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
 
 }
 #btn12:hover{
@@ -610,9 +661,30 @@ span{
  
     color:#0046BE;
     position:absolute;
+    font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
 
 }
 .p2:hover{
     text-decoration: underline;
     color:#040C13;
+}
+.price{
+    color:black;
+    font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -5px;
+}
+.btna{
+    color:#040C13;
+    background-color: #FFE000;
+    padding:6px 30px 6px 30px;
+    border: #FFE000;
+    font-family: Human BBY Digital,Human Fallback,Arial,Helvetica,sans-serif;
+    margin-left: 60px;
+
+
+}
+.btna:hover{
+       background-color:#f7da03;   
 }
