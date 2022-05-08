@@ -1,0 +1,39 @@
+.od {
+    font-size: 20px;
+    color: grey;
+    line-height: 50px;
+}
+
+span {
+    font-size: 20px;
+    color: blue;
+}
+/* 
+button {
+    margin-bottom: 50px;
+    padding: 20px 100px 20px 100px;
+} */
+
+
+#check {
+    background-color: rgb(199, 199, 5);
+    color: black;
+    border: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
+#out {
+    background-color: black;
+    color: white;
+    border: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* h2 {
+    margin-left: 100px;
+} */

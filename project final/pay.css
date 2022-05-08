@@ -1,0 +1,144 @@
+* {
+    font-family: 'poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* outline: none;
+    border: none; */
+    text-transform: capitalize;
+    transition: all .2s linear;
+    justify-content: baseline;
+}
+#pay{
+    margin-left: 20px;
+    
+    margin-right: 40%;
+    
+}
+#head {
+    margin-left: 65px;
+}
+
+ .btn:hover {
+    color: #fff;
+    background-color: #00afef;
+}
+
+ #name {
+    padding: 10px 50px 10px 0px;
+    border: 2px solid black
+}
+ #lname {
+
+    padding: 10px 50px 10px 0px;
+    border: 2px solid black
+}
+
+#mail {
+    padding: 10px 50px 10px 0px;
+    border: 2px solid black
+}
+
+#Number {
+    padding: 10px 50px 10px 0px;
+    border: 2px solid black
+}
+
+#container {
+    margin-bottom: 20px;
+}
+
+#pincode,
+#city {
+    padding: 10px 0px 10px 0px;
+    border: 2px solid black
+}
+
+#add {
+    padding: 10px 250px 10px 0px;
+    border: 2px solid black
+}
+
+
+
+
+
+#namec {
+    padding: 10px 80px 10px 0px;
+    border: 1px solid black
+}
+
+/* #submitbtn {
+    padding: 10px 100px 10px 100px;
+} */
+
+
+
+
+.input {
+    display: block;
+    width: 70%;
+    margin: 1% a;
+    padding: 1% 50px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    line-height: normal;
+    display: flex;
+    gap: 20px;
+}
+
+#state {
+    padding: 10px 50px 10px 50px;
+}
+
+#mail {
+    padding: 10px 55px 10px 55px;
+}
+
+#Number {
+    padding: 10px 55px 10px 55px;
+
+}
+.num{
+    margin-left: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+#submitbtn {
+    padding: 10px 80px 10px 80px;
+    font-size: 17px;
+    background-color: #00afef;
+    color: #fff;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.title {
+    margin-top: 100px;
+}
+
+#LS {
+    margin-top: 80px;
+    display: flex;
+    gap: 15px;
+}
+
+button {
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+    border-color: #00afef;
+    color: #00afef;
+}
+
+h5 {
+    margin-top: 10px;
+} 
