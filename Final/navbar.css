@@ -1,0 +1,111 @@
+.nav{
+    width: 100%;
+    background-color: #0046be;
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+
+    
+    
+}
+
+.logo > a > img{
+    height: 60%;
+    padding: 16px 24px;
+    width : auto;
+}
+
+.search{
+    height: 60%;
+    margin-top: 17px;
+}
+
+.search > input{
+    padding : 7px;
+    border-radius: 10px;
+    width : 170px;
+}
+
+
+h2{
+    color: white;    
+}
+
+
+.logo{
+    
+    width: 15%;
+}
+
+
+.location{
+    
+    display: flex;    
+}
+
+.location > img{
+    width : auto;
+}
+
+.cart{
+    display: flex;
+
+}
+
+.cart > img{
+    width : auto;
+    height : 40px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.cart > h2 > a{
+    color : white;
+    text-decoration: none;
+}
+
+.nav2{
+    width: 100%;
+    background-color: #0046be;
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+
+    
+}
+
+/* .deals{
+    display: flex;
+    justify-content: space-around;
+} */
+
+.account{
+    display: flex;
+}
+
+.account > h5 > a{
+    color : white;
+    text-decoration: none;
+}
+
+.account > img{
+    width: auto;
+    height : 40px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+      
+.hr{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 1%;
+}
+
+h5{
+    color: white;   
+}
+
+#toproduct > a{
+    color : white;
+    text-decoration: none;
+}

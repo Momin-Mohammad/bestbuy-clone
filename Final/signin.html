@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="signin.css">
+    <link rel="stylesheet" href="footer2.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <h1 id="c1"><a href="D:\Unit-2\bestbuy - clone\bestbuy-clone\Final\index.html">BEST BUY</a></h1>
+            
+        </div>
+        <div id="p1"  ><img src="https://www.seekpng.com/png/full/396-3965935_share-this-image-best-buy-logo.png" alt=""></div>
+        
+        <div class="text">
+            <p id="c2"> <a href="D:\Unit-2\bestbuy - clone\bestbuy-clone\Final\index.html">Return to previous page </a> </p>
+            </div>
+            
+    </div>
+
+
+    
+
+
+
+    <!-- 2nd section above -->
+    <form id="form">
+        <h1>Sign In</h1>
+        <p>Email Address</p>
+        <input id="Email_Address" type="text" placeholder="Enter Email">
+        <p>Password</p>
+        <input id="Password" type="password" placeholder="Enter Password">
+        <a href="forgot.html" class="link_forgot_pass d_block" ><strong>Forgot Password ?</strong></a>   
+      
+        
+        <input id="submit" type="submit" name="submit" value="Sign In" />
+    
+    </form>
+
+    <!-- footer -->
+    <hr class="footer2-hr"/>
+    <div class="legal-nav-section2">
+    <a href="">Accessibility</a>
+    <a href="">Privacy</a>
+    <a href="">Interest-Based Ads</a>
+    </div>
+
+    <p>In-store pricing may vary. Prices and offers are subject to change. © 2022 Best Buy. All rights reserved. BEST BUY, the BEST BUY logo, the tag design, and MY BEST BUY are trademarks of Best Buy and its affiliated companies.</p>
+    
+</body>
+</html>
+<script>
+    var form = document.querySelector("form");
+    var user = JSON.parse(localStorage.getItem("user"))
+
+    form.addEventListener("submit" , function(event){
+        event.preventDefault()
+
+        var data ={
+            email :form.Email_Address.value,
+            password : form.Password.value
+        }
+
+        if(user === null){
+            alert("Welcome")
+        }else if(user.Email==data.email && user.Password==data.password){
+            alert("Singin")
+        } 
+         window.location.href ="index.html"
+        
+    })
+</script>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping details</title>
+    <link rel="stylesheet" href="pay.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+
+<body>
+
+
+<!-- Shipping details -->
+    <div id="LS">
+
+    </div>
+    <div id="head">
+        <h3>Delivery Address</h3>
+    </div>
+    <div id="pay">
+        <form>
+
+            <div class="input">
+                <div> <span id="fn">First Name</span><br>
+                    <input required ="required" type=" text" id="name">
+                </div>
+                <div> <span id="ln">Last Name</span><br>
+                    <input required ="required" type="text" id="lname">
+                </div>
+    
+            </div>
+    
+            <div class="input">
+                <div> <span>Address</span><br>
+                    <input required ="required" id="add" type="text" />
+                </div>
+            </div>
+            <div class="input">
+                <div> <span>City</span><br>
+                    <input required ="required" id="city" type="text" />
+                </div>
+                <div><span>State</span><br>
+                    <select name="State" id="state">
+                        <option value="">select</option>
+                        <option value="Tamilnadu">Tamilnadu</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Up">Up</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Assam">Assam</option>
+    
+                    </select>
+                </div>
+                <div> <span>Zip Code</span><br>
+                    <input required ="required" id="pincode" type="Number" />
+                </div>
+    
+            </div>
+    
+            <div id="container">
+                <div class="input">
+                    <h3 class="title">Contact Information</h3>
+    
+                </div>
+                <div class="input">
+                    <div> <span>Email Adress</span><br>
+                        <input required ="required" type=" text" id="mail">
+                    </div>
+                </div>
+                <div class="num">
+                    <span>Phone Number</span><br>
+                    <input required ="required" id="Number" type="Number" />
+                </div>
+    
+                <div class="input"> <input required ="required" type="submit" value="Place Order" id="submitbtn">
+                </div>
+    
+            </div>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
+<script> 
+var form = document.querySelector("form")
+form.addEventListener("submit",myfun) 
+function myfun(){
+event.preventDefault();
+window.location.href="order.html"
+}
+    
+
+
+ </script>

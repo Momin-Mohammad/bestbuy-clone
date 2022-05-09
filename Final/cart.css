@@ -1,0 +1,123 @@
+.Card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(auto,1fr);
+    margin-left: 200px;
+    margin-bottom: 30px;
+    /* border: 1px solid red; */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-right: 100px;
+    
+   
+
+}
+
+.Card1{
+   
+    text-align: center;
+}
+.Card2{
+    
+    
+    justify-content: center;
+}
+.Card3{
+   
+    text-align: center;
+    margin-right: 100px;
+    /* border: 1px solid red; */
+    
+}
+/* button{
+    background-color: yellow;
+     padding: 0px 8px;
+   font-size: 13px;
+   cursor: pointer;
+   
+    
+} */
+#img{
+    padding: 0px 16px 0px 0px ;
+}
+#Brand{
+    
+    color: #0457c8;
+}
+#checkout{
+    /* border: 1px solid black; */
+    margin-right: 100px;
+    width: 700px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 400px;
+    text-align: center;
+    color: black;
+}
+#check{
+    display: flex;
+    
+}
+
+.od {
+    font-size: 20px;
+    color: grey;
+    line-height: 50px;
+}
+
+span {
+    font-size: 20px;
+    color: blue;
+}
+
+
+#out{
+    margin-bottom: 50px;
+    padding: 20px 100px 20px 100px;
+}
+
+
+ #chekin {
+    background-color: rgb(199, 199, 5);
+    color: black;
+    border: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    padding: 20px 100px 20px 100px; 
+
+}
+#chekin:hover{
+    cursor: pointer;
+    background-color: rgb(250, 250, 114);
+
+}
+
+#left > h1{
+    margin-left : 50px;
+}
+
+
+#out {
+    background-color: black;
+    color: white;
+    border: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cart > h2 > a{
+    color : white;
+    text-decoration: none;
+}
+
+#products{
+    margin-right: 20px;
+    height : auto;
+}
+
+/* h2 {
+    margin-left: 100px;
+} */
